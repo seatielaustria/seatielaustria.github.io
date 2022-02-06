@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/seatielaustria/seatielaustria.github.io#readme",
   "dependencies": {
+    "moment": "^2.29.1",
     "tone": "^14.7.77"
   },
   "devDependencies": {
