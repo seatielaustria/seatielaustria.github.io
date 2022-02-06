@@ -1,0 +1,28 @@
+{
+  "name": "sexygirl",
+  "version": "1.0.0",
+  "description": "SexyGirl Comic Web App",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js --live",
+    "build": "browserify index.js | uglifyjs -cm > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seatielaustria/seatielaustria.github.io.git"
+  },
+  "author": "seatiel.austria@boom.camp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seatielaustria/seatielaustria.github.io/issues"
+  },
+  "homepage": "https://github.com/seatielaustria/seatielaustria.github.io#readme",
+  "dependencies": {
+    "tone": "^14.7.77"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "budo": "^11.6.4",
+    "uglify-js": "^3.15.0"
+  }
+}
